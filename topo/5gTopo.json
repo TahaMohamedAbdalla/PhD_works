@@ -1,0 +1,134 @@
+{
+   "edges":[
+     {
+       "source":"GNB1",
+       "target":"UPF2",
+       "view": "Data",
+       "info": {
+         "property": {
+            "bw": 1,
+            "delay": 1000
+         },
+         "group": ""
+       }
+    },
+    {
+      "source":"UPF2",
+      "target":"DNN3",
+      "view": "Data",
+      "info": {
+        "property": {
+           "bw": 1,
+           "delay": 1000
+        },
+        "group": ""
+      }
+   },
+
+    {
+      "source":"UPF4",
+      "target":"UPF5",
+      "view": "Data",
+      "info": {
+        "property": {
+           "bw": 1,
+           "delay": 1000
+        },
+        "group": ""
+      }
+   }
+   ,
+      {
+         "source":"UPF5",
+         "target":"UPF6",
+         "view": "Data",
+         "info": {
+           "property": {
+              "bw": 1,
+              "delay": 1000
+           },
+           "group": ""
+         }
+      }
+      ,
+      {
+         "source":"UPF6",
+         "target":"UPF1",
+         "view": "Data",
+         "info": {
+           "property": {
+              "bw": 1,
+              "delay": 1000
+           },
+           "group": ""
+         }
+      }  
+      
+   ],
+   "vertices":[
+     {
+       "info": {
+         "type": "Router",
+         "property": {},
+         "group": [200]
+       },
+       "id": "GNB1"
+      },
+     {
+      "info": {
+        "type": "Router",
+        "property": {},
+        "group": [200]
+      },
+      "id": "UPF2"
+     },
+     
+     {
+      "info": {
+        "type": "Router",
+        "property": {},
+        "group": [200]
+      },
+      "id": "DNN3"
+     },
+     {
+      "info": {
+        "type": "Router",
+        "property": {},
+        "group": [200]
+      },
+      "id": "UPF4"
+     },
+     {
+      "info": {
+        "type": "Router",
+        "property": {},
+        "group": [200]
+      },
+      "id": "UPF5"
+     },
+     
+
+
+     {
+      "info": {
+        "type": "Router",
+        "property": {},
+        "group": [200]
+      },
+      
+      "id": "UPF6"
+     }
+    
+    
+   ],
+   "graph_parameters":{
+        "testbed":"MININET"
+   }
+}
+
+
+
+
+
+

@@ -1,0 +1,177 @@
+
+UPF2> terminal length 0
+UPF2> 
+UPF2> show ipv6 ospf6 route detail 
+Destination: 2000::/64
+Destination type: Network
+Installed Time: 01:34:05 ago
+  Changed Time: 01:34:05 ago
+Lock: 2 Flags: BA--
+Memory: prev: (nil) this: 0x55ab2be09de0 next: 0x55ab2be0a2c0
+Associated Area: 0.0.0.0
+Path Type: External-1
+LS Origin: AS-External Id: 0.0.0.0 Adv: 3.0.0.3
+Options: --|-|-|--|-|--
+Router Bits: --------
+Prefix Options: xxx
+Metric Type: 1
+Metric: 1 (0)
+Nexthop:
+  fe80::8808:85ff:fe31:b3b1 UPF2-eth3
+
+Destination: 2001:1::2/127
+Destination type: Network
+Installed Time: 01:33:59 ago
+  Changed Time: 01:33:59 ago
+Lock: 2 Flags: BA--
+Memory: prev: 0x55ab2be09de0 this: 0x55ab2be0a2c0 next: 0x55ab2be05f20
+Associated Area: 0.0.0.0
+Path Type: External-1
+LS Origin: AS-External Id: 0.0.0.1 Adv: 1.0.0.1
+Options: --|-|-|--|-|--
+Router Bits: --------
+Prefix Options: xxx
+Metric Type: 1
+Metric: 1 (0)
+Nexthop:
+  fe80::a409:5fff:fec4:d1d8 UPF2-eth2
+
+Destination: 2012::/64
+Destination type: Network
+Installed Time: 01:34:14 ago
+  Changed Time: 01:34:14 ago
+Lock: 2 Flags: BA--
+Memory: prev: 0x55ab2be0a2c0 this: 0x55ab2be05f20 next: 0x55ab2be0dd70
+Associated Area: 0.0.0.0
+Path Type: Intra-Area
+LS Origin: Intra-Prefix Id: 0.0.0.0 Adv: 2.0.0.2
+Options: --|-|-|--|-|--
+Router Bits: --------
+Prefix Options: xxx
+Metric Type: 1
+Metric: 1 (0)
+Nexthop:
+  :: UPF2-eth2
+
+Destination: 2012::/64
+Destination type: Network
+Installed Time: 01:33:59 ago
+  Changed Time: 01:33:59 ago
+Lock: 2 Flags: -A--
+Memory: prev: 0x55ab2be05f20 this: 0x55ab2be0dd70 next: 0x55ab2be0a3c0
+Associated Area: 0.0.0.0
+Path Type: Intra-Area
+LS Origin: Intra-Prefix Id: 0.0.0.0 Adv: 1.0.0.1
+Options: --|-|-|--|-|--
+Router Bits: --------
+Prefix Options: xxx
+Metric Type: 1
+Metric: 2 (0)
+Nexthop:
+  fe80::a409:5fff:fec4:d1d8 UPF2-eth2
+
+Destination: 2012::/64
+Destination type: Network
+Installed Time: 01:33:59 ago
+  Changed Time: 01:33:59 ago
+Lock: 2 Flags: -A--
+Memory: prev: 0x55ab2be0dd70 this: 0x55ab2be0a3c0 next: 0x55ab2be06180
+Associated Area: 0.0.0.0
+Path Type: External-1
+LS Origin: AS-External Id: 0.0.0.2 Adv: 1.0.0.1
+Options: --|-|-|--|-|--
+Router Bits: --------
+Prefix Options: xxx
+Metric Type: 1
+Metric: 1 (0)
+Nexthop:
+  fe80::a409:5fff:fec4:d1d8 UPF2-eth2
+
+Destination: 2023::/64
+Destination type: Network
+Installed Time: 01:34:14 ago
+  Changed Time: 01:34:14 ago
+Lock: 2 Flags: BA--
+Memory: prev: 0x55ab2be0a3c0 this: 0x55ab2be06180 next: 0x55ab2be09be0
+Associated Area: 0.0.0.0
+Path Type: Intra-Area
+LS Origin: Intra-Prefix Id: 0.0.0.0 Adv: 2.0.0.2
+Options: --|-|-|--|-|--
+Router Bits: --------
+Prefix Options: xxx
+Metric Type: 1
+Metric: 1 (0)
+Nexthop:
+  :: UPF2-eth3
+
+Destination: 2023::/64
+Destination type: Network
+Installed Time: 01:34:05 ago
+  Changed Time: 01:34:05 ago
+Lock: 2 Flags: -A--
+Memory: prev: 0x55ab2be06180 this: 0x55ab2be09be0 next: 0x55ab2be09fe0
+Associated Area: 0.0.0.0
+Path Type: Intra-Area
+LS Origin: Intra-Prefix Id: 0.0.0.0 Adv: 3.0.0.3
+Options: --|-|-|--|-|--
+Router Bits: --------
+Prefix Options: xxx
+Metric Type: 1
+Metric: 2 (0)
+Nexthop:
+  fe80::8808:85ff:fe31:b3b1 UPF2-eth3
+
+Destination: 2023::/64
+Destination type: Network
+Installed Time: 01:34:05 ago
+  Changed Time: 01:34:05 ago
+Lock: 2 Flags: -A--
+Memory: prev: 0x55ab2be09be0 this: 0x55ab2be09fe0 next: 0x55ab2be09ee0
+Associated Area: 0.0.0.0
+Path Type: External-1
+LS Origin: AS-External Id: 0.0.0.2 Adv: 3.0.0.3
+Options: --|-|-|--|-|--
+Router Bits: --------
+Prefix Options: xxx
+Metric Type: 1
+Metric: 1 (0)
+Nexthop:
+  fe80::8808:85ff:fe31:b3b1 UPF2-eth3
+
+Destination: fe80::/64
+Destination type: Network
+Installed Time: 01:34:05 ago
+  Changed Time: 01:34:05 ago
+Lock: 2 Flags: BA--
+Memory: prev: 0x55ab2be09fe0 this: 0x55ab2be09ee0 next: 0x55ab2be0df70
+Associated Area: 0.0.0.0
+Path Type: External-1
+LS Origin: AS-External Id: 0.0.0.1 Adv: 3.0.0.3
+Options: --|-|-|--|-|--
+Router Bits: --------
+Prefix Options: xxx
+Metric Type: 1
+Metric: 1 (0)
+Nexthop:
+  fe80::8808:85ff:fe31:b3b1 UPF2-eth3
+
+Destination: fe80::/64
+Destination type: Network
+Installed Time: 01:33:59 ago
+  Changed Time: 01:33:59 ago
+Lock: 2 Flags: -A--
+Memory: prev: 0x55ab2be09ee0 this: 0x55ab2be0df70 next: (nil)
+Associated Area: 0.0.0.0
+Path Type: External-1
+LS Origin: AS-External Id: 0.0.0.0 Adv: 1.0.0.1
+Options: --|-|-|--|-|--
+Router Bits: --------
+Prefix Options: xxx
+Metric Type: 1
+Metric: 1 (0)
+Nexthop:
+  fe80::a409:5fff:fec4:d1d8 UPF2-eth2
+
+UPF2> 
+UPF2> q 
+

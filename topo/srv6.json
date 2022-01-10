@@ -1,0 +1,95 @@
+{
+    "edges":[
+       {
+          "source":"r1",
+          "target":"r2",
+          "view": "Data",
+          "info": {
+            "property": {
+               "bw": 1,
+               "delay": 1000
+            },
+            "group": ""
+          }
+       },
+       {
+          "source":"r2",
+          "target":"r3",
+          "view": "Data",
+          "info": {
+            "property": {
+               "bw": 5,
+               "delay": 200
+            },
+            "group": ""
+          }
+       }
+       ,
+       {
+          "source":"r3",
+          "target":"r4",
+          "view": "Data",
+          "info": {
+            "property": {
+               "bw": 5,
+               "delay": 200
+            },
+            "group": ""
+          }
+       }
+       ,
+       {
+          "source":"r1",
+          "target":"r4",
+          "view": "Data",
+          "info": {
+            "property": {
+               "bw": 5,
+               "delay": 200
+            },
+            "group": ""
+          }
+       }
+       
+    ],
+    "vertices":[
+      {
+       "info": {
+         "type": "Router",
+         "property": {},
+         "group": [200]
+       },
+       "id": "r1"
+      },
+      {
+       "info": {
+         "type": "Router",
+         "property": {},
+         "group": [200]
+       },
+       "id": "r2"
+      },
+      {
+       "info": {
+         "type": "Router",
+         "property": {},
+         "group": [200]
+       },
+       "id": "r3"
+      }
+      ,
+      {
+       "info": {
+         "type": "Router",
+         "property": {},
+         "group": [200]
+       },
+       "id": "r4"
+      }
+      
+
+    ],
+    "graph_parameters":{
+         "testbed":"MININET"
+    }
+ }

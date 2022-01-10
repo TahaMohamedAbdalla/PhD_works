@@ -1,0 +1,37 @@
+{
+    "edges":[
+       {
+          "source":"r1",
+          "target":"r2",
+          "view": "Data",
+          "info": {
+            "property": {
+               "bw": 1,
+               "delay": 1000
+            },
+            "group": ""
+          }
+       }
+    ],
+    "vertices":[
+      {
+       "info": {
+         "type": "Router",
+         "property": {},
+         "group": [200]
+       },
+       "id": "r1"
+      },
+      {
+       "info": {
+         "type": "Router",
+         "property": {},
+         "group": [200]
+       },
+       "id": "r2"
+      }
+    ],
+    "graph_parameters":{
+         "testbed":"MININET"
+    }
+ }
